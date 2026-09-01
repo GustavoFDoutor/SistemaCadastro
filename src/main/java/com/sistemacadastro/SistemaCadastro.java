@@ -20,6 +20,7 @@ public class SistemaCadastro {
             System.out.println("=== Sistema de Cadastro ===");
             System.out.println("1 - Cadastrar Usuário");
             System.out.println("2 - Listar Usuários");
+            System.out.println("3 - Deletar Usuário");
             System.out.println("0 – Sair");
             System.out.print("Escolha uma Opção: ");
 
@@ -31,6 +32,9 @@ public class SistemaCadastro {
                     break;
                 case 2:
                     System.out.println("=== Listar Usuários ===");
+                    break;
+                case 3:
+                System.out.println("=== Deletar Usuário ===");
                     break;
                 case 0:
                     System.out.println("Fechando Sistema");
